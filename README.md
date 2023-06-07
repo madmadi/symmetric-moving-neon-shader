@@ -4,6 +4,8 @@ This is just a shader art practice and also my first shader inspired by amazing 
 
 **[Check it out here ✨](https://madmadi.github.io/symmetric-moving-neon-shader/)**
 
+[Shadertoy version](https://www.shadertoy.com/view/mlKSDm)
+
 ---
 
 ## Development
