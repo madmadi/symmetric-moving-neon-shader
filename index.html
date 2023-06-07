@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symmetric Moving Neon Shader</title>
+    <script type="text/javascript"
+        src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <canvas id="glslCanvas"></canvas>
+    </main>
+    <script type="module">
+        const canvas = document.getElementById("glslCanvas");
+        const sandbox = new GlslCanvas(canvas);
+        canvas.style.width = '100vw';
+        canvas.style.height = '100vh';
+
+        const response = await fetch("shader.frag");
+        const content = await response.text();
+
+        sandbox.load(content);
+    </script>
+</body>
+</html>

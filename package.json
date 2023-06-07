@@ -1,0 +1,16 @@
+{
+  "name": "symmetric_moving_neon_shader",
+  "version": "1.0.0",
+  "description": "A simple and cool shader",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mo@madmadi.me",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
